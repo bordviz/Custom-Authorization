@@ -12,9 +12,3 @@ DB_PASS = os.environ.get('DB_PASS')
 SECRET = os.environ.get('SECRET')
 REFRESH_SECRET = os.environ.get('REFRESH_SECRET')
 ALGORITHM = os.environ.get('ALGORITHM')
-
-EMAIL_SEND = os.environ.get('EMAIL_SEND')
-EMAIL_PASS = os.environ.get('EMAIL_PASS')
-
-SMTP_HOST = os.environ.get('SMTP_HOST')
-SMTP_PORT = os.environ.get('SMTP_PORT')
