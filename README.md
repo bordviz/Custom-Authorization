@@ -17,8 +17,8 @@
 ### Project Stack: 
  - FastAPI
  - PostgreSQL
- - FastAPI-Users
- - Websockets
+ - Bcrypt
+ - JWT
  - Alembic
  - Pydantic
 
