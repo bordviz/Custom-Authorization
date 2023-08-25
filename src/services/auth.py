@@ -13,7 +13,7 @@ class AuthService:
         user_model = UserCreate(
             first_name=data.first_name,
             last_name=data.last_name,
-            username=data.last_name,
+            username=data.username,
             email=data.email,
             hashed_password=bcrypt_context.hash(data.password)
         )
